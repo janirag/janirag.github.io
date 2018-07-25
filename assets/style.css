@@ -4,18 +4,25 @@ body {
   font-family: "FONT NEVAN DOESNT HAVE", system-ui, sans-serif;
 }
 
+
 nav {
   background-color: #A22C29;
   display: flex;
 }
 
+
 nav a {
+  color: black;
   padding: 20px;
-  textd}
+  text-decoration: none;
+  transition: background-color 0.4s;
+}
+
 
 nav .active {
   background: rgba(225,255,255,0.5);
 }
+
 
 nav a:hover {
   background: rgba(225,255,255,0.4;
